@@ -1,7 +1,14 @@
 #randArticle{
+  margin-top: 20px;
   font-size: 2em;
   font-weight: bold;
 }
 body{
   font-family: Pacifico;
+  background-image: url("background.jpg");
+  background-size: cover;
+  height: 800px;
+  overflow-x: hidden;
+  position: relative;
+  color: white;
 }
