@@ -2,6 +2,8 @@
   margin-top: 20px;
   font-size: 2em;
   font-weight: bold;
+  opacity: 0.6;
+  border-radius: 10px;
 }
 body{
   font-family: Pacifico;
@@ -11,4 +13,15 @@ body{
   overflow-x: hidden;
   position: relative;
   color: white;
+}
+body h1{
+  opacity: 0.75;
+}
+#searchText{
+  opacity: 0.75;
+  margin-top: 20px;
+}
+#search{
+  opacity: 0.8;
+  margin-top: 10px;
 }
