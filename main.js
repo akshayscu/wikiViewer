@@ -13,11 +13,10 @@
        success:function(data){
          for(var i=0;i<limit;i++){
            $('.output'+i).addClass("btn btn-default").append("<a href="+data[3][i]+">"+data[1][i]+"</a><p>"+data[2][i]+"</p>");
-           //$('.output').append("<br>")
          }
        },
-       error:function() {
-
+       error:function(err) {
+         alert(err);
        }
      });
 
