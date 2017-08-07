@@ -17,7 +17,7 @@ body{
 body h1{
   opacity: 0.75;
 }
-#searchText{
+#searchBar{
   opacity: 0.75;
   margin-top: 20px;
   padding: 25px;
@@ -28,4 +28,16 @@ body h1{
   opacity: 0.8;
   margin-top: 20px;
   font-size: 1.75em;
+}
+.output{
+  margin-top: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+  opacity: 0.75;
+  border-radius: 10px;
+  width:inherit;
+}
+.output p{
+  width:inherit;
+  word-wrap: break-word;
 }
