@@ -9,7 +9,7 @@ body{
   font-family: Pacifico;
   background-image: url("background.jpg");
   background-size: cover;
-  height: 800px;
+  height: 700px;
   overflow-x: hidden;
   position: relative;
   color: white;
@@ -28,16 +28,17 @@ body h1{
   opacity: 0.8;
   margin-top: 20px;
   font-size: 1.75em;
+  margin-bottom: 20px;
 }
-.output{
+#output0,#output1,#output2,#output3,#output4{
   margin-top: 20px;
-  font-size: 1.2em;
+  font-size: 1.75em;
   font-weight: bold;
   opacity: 0.75;
   border-radius: 10px;
   width:inherit;
 }
-.output p{
+/*.output p{
   width:inherit;
   word-wrap: break-word;
-}
+}*/
