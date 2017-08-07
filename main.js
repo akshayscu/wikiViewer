@@ -7,6 +7,7 @@
 
      $.ajax({
        type:"GET",
+       //async:false,
        url:api,
        dataType:"json",
        success:function(data){
@@ -15,7 +16,7 @@
            var str = arr.join(" ");
            str=str+"...";
 
-           $('.output'+i).addClass("btn btn-default").append("<a href="+data[3][i]+">"+data[1][i]+"</a><p>"+str+"</p>");
+           $('#output'+i).addClass("btn btn-default").append("<a href="+data[3][i]+">"+data[1][i]+"</a><p>"+str+"</p>");
            //console.log(str);console.log(data[3][i]);console.log(data[1][i])
          }
        },
