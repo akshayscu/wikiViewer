@@ -2,7 +2,7 @@
    $('#search').click(function(){
      var searchText = $('#searchBar').val();
      var limit=5;
-     var api = "https://en.wikipedia.org/w/api.php?action=opensearch&search="+searchText+"&limit="+limit;
+     var api = "https://en.wikipedia.org/w/api.php?origin=*&action=opensearch&search="+searchText+"&limit="+limit;
      console.log(api);
 
      $.ajax({
